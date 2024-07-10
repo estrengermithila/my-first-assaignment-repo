@@ -73,9 +73,9 @@ color: #D9D9D9;
   }
   .banner{
     display: flex;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
-    margin: 0 35px 0 200px;
+   margin: 0 35px 0 200px;
  }
  .banner-picture{
     width: 274.17px;
@@ -120,7 +120,8 @@ color: #D9D9D9;
     text-decoration: underline;
   }
   *{
-    margin-bottom: 50px;
+    margin: 0;
+    padding: 0;
   }
   .target-container{
     display: flex;
@@ -170,4 +171,7 @@ color: #D9D9D9;
   .footer-container{
     display: flex;
     justify-content: space-between;
+  }
+  .about-items{
+    margin-top:20px ;
   }
