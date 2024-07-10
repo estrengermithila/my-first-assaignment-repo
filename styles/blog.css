@@ -12,23 +12,24 @@
 .section-container{
     text-align: center;
     padding: 45px 220px;
-    
+    margin-bottom: 24px;
     
 }
 .section-picture{
     width: 240.28px;
     height: 240px;
+    margin: 32px 32px;
 }
 .section-title{
     font-size: 48px;
     color: #0D1321;
-    line-height: 68px;
     font-weight: 800;
 }
 .section-description{
     font-size: 16px;
     line-height: 26px;
     color: #0D1321;
+    margin: 26px ;
 }
 .btn-primary{
     background-color: #0D1321 ;
@@ -36,36 +37,42 @@
     padding: 21px 24px;
     border: none;
 color: #D9D9D9;
+font-weight: 600;
+
+border-radius: 5px;
+text-align: center;
 }
 .secondary-title{
     font-size: 32px;
     font-weight: 800px;
     color: #0D1321;
-     ;
+    
 }
 .secondary-description{
     font-size: 16px;
     color: #0D1321;
     line-height: 26px;
-    ;
+    margin-top: 15px;
 }
 .secondary1-title{
     font-size: 24px;
     font-weight: 700;
-    color: #0D1321 ;
+    color: rgba(13, 19, 33, 0.7) ;
+    margin-top: 80px;
+    margin-bottom: 16px;
 }
 .secondary1-description{
     font-size: 16px;
     line-height: 26px;
-    color: #0D1321;
+    color: rgba(13, 19, 33, 1);
     margin-bottom: 50px;
 }
 .secondary1-btn{
-    font-size: 20px;
-    font-weight: 600;
-    color: #0D1321;
-    border: solid;
-    background-color: white;
+    font-size: 16px;
+    padding: 12px;
+    color: rgba(13, 19, 33, 0.7);
+    border: 1px solid;
+    margin-bottom: 30px;
 }
 .secion-picture{
     width: 274.17px;
@@ -75,7 +82,7 @@ color: #D9D9D9;
     display: flex;
    justify-content: space-around;
    align-items: center;
-   margin: 0 35px 0 200px;
+   margin: 0 35px 15px 35px;
  }
  .banner-picture{
     width: 274.17px;
@@ -83,7 +90,7 @@ color: #D9D9D9;
  }
  
  .secondary-bg{
-  background-color: rgba(173, 200, 247, 1);
+  background-color:rgba(13, 19, 33, 0.02);
  }
  .main{
     max-width: 1140px;
@@ -118,6 +125,7 @@ color: #D9D9D9;
     color: #0D1321;
     border: none;
     text-decoration: underline;
+    margin-top: 10px;
   }
   *{
     margin: 0;
@@ -125,18 +133,20 @@ color: #D9D9D9;
   }
   .target-container{
     display: flex;
-    border: 2px solid;
+    border: 1px solid;
     border-radius: 10px;
     padding: 40px;
-    
+    margin-bottom: 20px;
+
   }
   .terget-img-quantity{
-    width: 94.78px;
-    height: 108px;
+    width: 75px;
+    height: 70px;
+    padding: 16px 24px;
   }
   .super-container{
     background-image: url('../assets/handshake.jpg');
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     border-radius: 10px;
     border: 2px;
@@ -144,7 +154,8 @@ color: #D9D9D9;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-items: center;
+    
   }
   .super-content{
     justify-content: center;
@@ -153,7 +164,8 @@ color: #D9D9D9;
     align-items: center;
    text-align: center;
    margin-top: 32px;
-   margin-bottom: 30px
+   margin-bottom: 30px;
+   gap: 15px;
   }
   .super-content input{
     width: 350px;
@@ -163,15 +175,89 @@ color: #D9D9D9;
     background-color: #FFFFFF;
   }
   #super-btn{
-    width: 100px;
-    height: 40px;
+    width: 90px;
+    height: 30px;
     border: none;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
   }
   .footer-container{
-    display: flex;
-    justify-content: space-between;
+    position: static;
+width: 1140px;
+height: 36px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
   }
   .about-items{
-    margin-top:20px ;
+    padding: 80px 47px 0;
+    margin-top: 40px;
   }
+  .banner-setup{
+    padding: 48px;
+   
+  }
+  .secondary-position{
+    margin-top: 60px;
+  }
+  .ytb-positon{
+    margin: 100px 0;
+  }
+  .ytb-container{
+    
+    border-radius: 20px;
+   margin: 10px;
+   
+  }
+  .secondary-description-container{
+    margin-bottom: 20px;
+  }
+  .lang-description{
+    margin-right: 15px;
+    justify-content: space-between;
+  }
+  .super-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #FFFFFF;
+   margin-top: 36px;
+  }
+  .super-description{
+    font-size: 16px;
+    width: 606px;
+    color: #FFFFFF;
+    margin-bottom: 26px;
+  }
+  .foot-container{
+   
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 0;
+
+margin-bottom: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 32px 150px 32px 150px;
+border-radius: 16px;
+margin-left: auto;
+margin-right: auto;
+background: rgba(13, 19, 33, 0.03);
+}
+.st-title{
+  font-size: 24px;
+  font-weight: 800;
+  color: #0D1321;
+  margin-bottom: 5px;
+}
+.st-image{
+  width: 56px;
+  height: 56px;
+  margin-bottom: 5px;
+}
